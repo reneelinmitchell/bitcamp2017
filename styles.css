@@ -3,7 +3,7 @@ html, body {
     background: -o-linear-gradient(red, yellow); 
     background: -moz-linear-gradient(red, yellow);
     background: linear-gradient(red, yellow);
-    height: 100vh;
+    background-attachment: fixed;
 }
 
 .webtitle h1 {
