@@ -1,7 +1,24 @@
-Modifed from the example at of D3
-http://mbostock.github.com/d3/ex/force.html
+Instructions:
 
-Run the file force.py to generate the force.json data file needed for this to work.
+  Modifed from the example at of D3
+  http://mbostock.github.com/d3/ex/force.html
 
-Then copy all of the files in this directory to a webserver and load force.html.
+  Run the file force.py to generate the force.json data file needed for this to work.
+
+  Then copy all of the files in this directory to a webserver and load force.html.
+  
+ Functionality:
+ 
+  This project focuses on producing a contacts network for a given investment advisor or broker. Contacts are "closer" to the 
+  given advisor given by how much time they have spent working with the advisor at any company the advisor has worked at.
+  A heatmap for how "corrupt" a given conneciton is (supposed) to be determined by how many times this contact has been mentioned
+  in a corpus of filtered financial fraud related court cases. We could not fully get this fucntinoality to display on the graph but
+  the code is almost working and attached. 
+  
+  In terms of actual output, we were able to generate a simple contacts network for a given person. A front end searchable database
+  has also been created, though the search function doesnt quite work yet (not integrated with out python code).
+  
+  
+  
+  
 
