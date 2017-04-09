@@ -1,0 +1,24 @@
+html, body {
+    background: -webkit-linear-gradient(red, yellow);
+    background: -o-linear-gradient(red, yellow); 
+    background: -moz-linear-gradient(red, yellow);
+    background: linear-gradient(red, yellow);
+    height: 100vh;
+}
+
+.webtitle h1 {
+	text-align: center;
+	margin-top: 5%;
+	font-size: 100px;
+	font-family: 'Arimo', sans-serif;
+}
+
+.input-group {
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 55%;
+}
+
+/*.unity {
+	background-color: rgba(255,255,255,0.5);
+}*/
