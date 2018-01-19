@@ -36,9 +36,7 @@ app = flask.Flask(__name__, static_folder="force")
 def mainpage(name=None):
     return render_template("index.html",name=name)
 
-
-
-@app.route('/<path:path>',methods=['POST'])
+@app.route('/<path:path>', methods=['POST'])
 def my_form_post(path):
     if request.method == 'POST':
         text = request.form['text']
